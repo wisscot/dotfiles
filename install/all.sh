@@ -9,7 +9,7 @@ sudo -v
 if test ! $(which brew)
 then
   echo "Installing Homebrew..."
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 fi
 
 # Make sure we’re using the latest Homebrew
@@ -19,43 +19,43 @@ brew update
 brew upgrade --all
 
 apps=(
-    bash-completion2
-    coreutils
-    moreutils
-    findutils
-    git
-    grep --with-default-names
-    imagemagick --with-webp
-    ffmpeg
-    python
     python3
-    source-highlight
-    wget
-    thefuck
-    jq
-    gradle
-    go
-    dep
-    etcd
-    maven
-    sbt
-    gradle
-    shellcheck
-    postgresql
-    gcc
-    kubectl
-    node
-    yarn
-    pkg-config
-    cmake
-    qt
-    docker
-    hunspell
-    poppler --with-qt --enable-xpdf-headers
-    glances
-    zsh
-    libgit2
-    qpdf
+    git
+    # bash-completion2
+    # coreutils
+    # moreutils
+    # findutils
+    # grep --with-default-names
+    # imagemagick --with-webp
+    # ffmpeg
+    # python
+    # source-highlight
+    # wget
+    # thefuck
+    # jq
+    # gradle
+    # go
+    # dep
+    # etcd
+    # maven
+    # sbt
+    # gradle
+    # shellcheck
+    # postgresql
+    # gcc
+    # kubectl
+    # node
+    # yarn
+    # pkg-config
+    # cmake
+    # qt
+    # docker
+    # hunspell
+    # poppler --with-qt --enable-xpdf-headers
+    # glances
+    # zsh
+    # libgit2
+    # qpdf
 )
 
 brew install "${apps[@]}"
@@ -64,19 +64,21 @@ brew install "${apps[@]}"
 brew cleanup
 
 # Install Caskroom
-brew tap caskroom/cask
-brew tap caskroom/versions
+# brew tap caskroom/cask
+# brew tap caskroom/versions
 
 apps=(
-    atom
-    sublime-text
-    pycharm-ce
-    docker
-    docker-machine
-    virtualbox
-    intellij-idea
-    minikube
-    iterm2
+    google-chrome
+    visual-studio-code
+    # atom
+    # sublime-text
+    # pycharm-ce
+    # docker
+    # docker-machine
+    # virtualbox
+    # intellij-idea
+    # minikube
+    # iterm2
 )
 
 brew cask install "${apps[@]}"
@@ -84,28 +86,28 @@ brew cask install "${apps[@]}"
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-# JVM
-brew cask install java
-brew install scala
+# # JVM
+# brew cask install java
+# brew install scala
 
-# Install R and RStudio
-brew cask install xquartz
-brew tap homebrew/science
-brew install --with-x11 r
-brew cask install --appdir=/Applications rstudio
+# # Install R and RStudio
+# brew cask install xquartz
+# brew tap homebrew/science
+# brew install --with-x11 r
+# brew cask install --appdir=/Applications rstudio
 
-# Go
-## GVM
-bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
+# # Go
+# ## GVM
+# bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
 
-# Tex
-brew cask install basictex
-git clone https://github.com/TeXworks/texworks.git
-cd texworks; mkdir build; cd build; cmake ..; make; make install; cd ../..
+# # Tex
+# brew cask install basictex
+# git clone https://github.com/TeXworks/texworks.git
+# cd texworks; mkdir build; cd build; cmake ..; make; make install; cd ../..
 
-# Misc
-gem install jekyll jekyll-paginate
-npm install -g typescript
+# # Misc
+# gem install jekyll jekyll-paginate
+# npm install -g typescript
 
-# Quick Look Plugins (https://github.com/sindresorhus/quick-look-plugins)
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv qlimagesize webpquicklook suspicious-package
+# # Quick Look Plugins (https://github.com/sindresorhus/quick-look-plugins)
+# brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv qlimagesize webpquicklook suspicious-package

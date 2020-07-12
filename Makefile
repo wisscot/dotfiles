@@ -3,3 +3,6 @@ sync:
 
 setup:
 	./setup_machine.sh
+
+test:
+	./test.sh
