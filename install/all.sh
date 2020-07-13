@@ -21,6 +21,7 @@ brew upgrade --all
 apps=(
     python3
     git
+    chromedriver
     # bash-completion2
     # coreutils
     # moreutils
@@ -70,6 +71,8 @@ brew cleanup
 apps=(
     google-chrome
     visual-studio-code
+    amazon-chime
+    amazon-workspaces
     # atom
     # sublime-text
     # pycharm-ce
