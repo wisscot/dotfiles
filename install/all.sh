@@ -22,6 +22,9 @@ apps=(
     python3
     git
     chromedriver
+    #sbt
+    #jenv
+    
     # bash-completion2
     # coreutils
     # moreutils
@@ -39,7 +42,6 @@ apps=(
     # dep
     # etcd
     # maven
-    # sbt
     # gradle
     # shellcheck
     # postgresql
@@ -54,7 +56,6 @@ apps=(
     # hunspell
     # poppler --with-qt --enable-xpdf-headers
     # glances
-    # zsh
     # libgit2
     # qpdf
 )
@@ -67,19 +68,21 @@ brew cleanup
 # Install Caskroom
 # brew tap caskroom/cask
 # brew tap caskroom/versions
+brew tap homebrew/cask-fonts
 
 apps=(
     google-chrome
-    visual-studio-code
     amazon-chime
     amazon-workspaces
+    font-jetbrains-mono
+    intellij-idea
+    visual-studio-code
     # atom
     # sublime-text
     # pycharm-ce
     # docker
     # docker-machine
     # virtualbox
-    # intellij-idea
     # minikube
     # iterm2
 )
