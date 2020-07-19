@@ -19,11 +19,12 @@ brew update
 brew upgrade --all
 
 apps=(
-    python3
+    pyenv
     git
     chromedriver
-    #sbt
-    #jenv
+    jenv
+    sbt
+    
     
     # bash-completion2
     # coreutils

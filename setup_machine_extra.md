@@ -6,7 +6,16 @@ https://github.com/lysyi3m/macos-terminal-themes \
 Direct link: https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/JetBrains%20Darcula.terminal \
 Double Click to install
 
-Set Front size to 14
+Set Font size to 14
+
+## IntelliJ IDEA
+Install JDK and Scala SDK \
+Install Scala plugin
+
+## VS Code
+Set font size to 16
+Set font to "Jetbrains Mono", this includes powerline
+
 
 ## System Preferences
 icloud sync all apps
