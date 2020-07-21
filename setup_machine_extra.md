@@ -23,6 +23,10 @@ icloud sync all apps
 
 Night Shift -> On
 
+Prevent accidental close terminal tab -> System Preferences, Keyboard, Shortcuts\
+add Close Tab, Close Window, Close Terminal
+
+
 ## Apps
 - Copyless 2 from App Store (Clipboard management app)
 
