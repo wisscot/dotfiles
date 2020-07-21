@@ -1,12 +1,13 @@
 # Extra Setup
 
 ## Terminal
-download theme JetBrains Darcula from 
-https://github.com/lysyi3m/macos-terminal-themes \
-Direct link: https://raw.githubusercontent.com/lysyi3m/macos-terminal-themes/master/themes/JetBrains%20Darcula.terminal \
-Double Click to install
+ - Install on-my-zsh
 
-Set Font size to 14
+ - download theme JetBrains Darcula from https://github.com/lysyi3m/macos-terminal-themes \
+
+ - Set Font to Jetbrains Mono, size 14
+ 
+ - change theme in .zshrc to "spaceship"
 
 ## IntelliJ IDEA
 Install JDK and Scala SDK \
