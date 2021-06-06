@@ -1,9 +1,12 @@
 # Extra Setup
 
 ## Terminal
+
+ - Install iterm2
+ 
  - Install on-my-zsh
 
- - download theme JetBrains Darcula from https://github.com/lysyi3m/macos-terminal-themes \
+ - Install theme JetBrains Darcula (google search)
 
  - Set Font to Jetbrains Mono, size 14
  
