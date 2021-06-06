@@ -4,13 +4,21 @@
 
  - Install iterm2
  
- - Install on-my-zsh
+ - Install on-my-zsh, change theme in .zshrc to "spaceship"
 
- - Install theme JetBrains Darcula (google search)
+ - Install theme JetBrains Darcula (.itermcolors file under Resources folder)
 
- - Set Font to Jetbrains Mono, size 14
+ - Install Font Jetbrains Mono, set size to 16
  
- - change theme in .zshrc to "spaceship"
+ - Key Mapping:
+   - move cursor by word left: Option + <-, Esc + b
+   - move cursor by word right: Option + ->, Esc + f
+   - move cursor to begin: Command + <-, Hex 0x01
+   - move cursor to end: Command + ->, Hex 0x05
+   - delete a word: Option + delete, Hex 0x1B 0x08
+   - delete a line: Command + delete, Hex 0x15
+   - undo: Command + z, Hex 0x1f
+   
 
 ## IntelliJ IDEA
 Install JDK and Scala SDK \
