@@ -19,14 +19,12 @@ fi
 brew update
 
 # Upgrade any already-installed formulae
-brew upgrade --all
+brew upgrade
 
 apps=(
     pyenv
     git
     chromedriver
-    jenv
-    sbt
 )
 
 brew install "${apps[@]}"
@@ -37,15 +35,13 @@ brew cleanup
 brew tap homebrew/cask-fonts
 
 apps=(
-    google-chrome
-    amazon-chime
-    amazon-workspaces
     font-jetbrains-mono
+    google-chrome
     intellij-idea
     visual-studio-code
 )
 
-brew cask install "${apps[@]}"
+brew install --cask "${apps[@]}"
 
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
