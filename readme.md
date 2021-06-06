@@ -13,11 +13,8 @@
  - Key Mapping:
    - choose Presets "Natural Text Editing"
    - undo: Command + z, Hex 0x1f
-   
 
-## IntelliJ IDEA
-Install JDK and Scala SDK \
-Install Scala plugin
+ - 
 
 ## VS Code
 Set font size to 16
