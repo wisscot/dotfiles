@@ -22,6 +22,8 @@ Set font to "Jetbrains Mono", this includes powerline
 
 set wrap tabs to checked
 
+Set Auto Save to save on window change
+
 
 ## System Preferences
 icloud sync all apps
