@@ -14,11 +14,13 @@
    - choose Presets "Natural Text Editing"
    - undo: Command + z, Hex 0x1f
 
- - 
+ 
 
 ## VS Code
 Set font size to 16
 Set font to "Jetbrains Mono", this includes powerline
+
+set wrap tabs to checked
 
 
 ## System Preferences
