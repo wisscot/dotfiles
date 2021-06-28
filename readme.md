@@ -25,11 +25,12 @@ set wrap tabs to checked
 
 ## System Preferences
 icloud sync all apps
-
 Night Shift -> On
 
-Prevent accidental close terminal tab -> System Preferences, Keyboard, Shortcuts\
-add Close Tab, Close Window, Close Terminal
+
+## TextEdit
+
+Click and open new file: disable icloud for TextEdit
 
 
 ## Apps
