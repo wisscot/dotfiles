@@ -8,7 +8,7 @@
 
  - Install theme JetBrains Darcula (.itermcolors file under Resources folder)
 
- - Install Font Jetbrains Mono, set size to 16
+ - Install Font Jetbrains Mono
  
  - Key Mapping:
    - choose Presets "Natural Text Editing"
